@@ -1,0 +1,348 @@
+[2020-11-20 05:56:53] => RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":3141,"order":{"slug":3141,"id":3141,"number":"3141","externalId":"4725","orderType":"eshop-individual","orderMethod":"phone","countryIso":"RU","createdAt":"2020-11-20 05:37:55","statusUpdatedAt":"2020-11-20 05:37:55","summ":68359,"totalSumm":68359,"prepaySum":0,"purchaseSumm":52018.95,"markDatetime":"2020-11-20 05:37:55","firstName":"test","call":false,"expired":false,"managerId":6,"customer":{"type":"customer","id":1659,"externalId":"38553","isContact":false,"createdAt":"2020-11-20 05:37:55","managerId":6,"vip":false,"bad":false,"site":"city-tuning-ru","contragent":{"contragentType":"individual"},"tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"opt_cl":false},"personalDiscount":0,"segments":[],"firstName":"test","email":"","phones":[]},"contact":{"type":"customer","id":1659,"externalId":"38553","isContact":false,"createdAt":"2020-11-20 05:37:55","managerId":6,"vip":false,"bad":false,"site":"city-tuning-ru","contragent":{"contragentType":"individual"},"tags":[],"marginSumm":0,"totalSumm":0,"averageSumm":0,"ordersCount":0,"customFields":{"opt_cl":false},"personalDiscount":0,"segments":[],"firstName":"test","email":"","phones":[]},"contragent":{"contragentType":"individual"},"delivery":{"code":"22","integrationCode":"sdek","data":{"payerType":"sender","packages":[]},"cost":0,"netCost":0,"address":{"countryIso":"RU"}},"site":"city-tuning-ru","status":"new","items":[{"markingCodes":[],"id":4275,"priceType":{"code":"base"},"initialPrice":18159,"discountTotal":0,"vatRate":"0.00","createdAt":"2020-11-20 05:46:02","quantity":1,"status":"confirming","offer":{"displayName":"ZRU9302968 зеркальный шкаф RONDA подсветка,стекл,полоч\/19х64,5х83\/(белый глянец\/серый матовый)","id":36498,"externalId":"128174","xmlId":"ZRU9302968","name":"ZRU9302968 зеркальный шкаф RONDA подсветка,стекл,полоч\/19х64,5х83\/(белый глянец\/серый матовый)","article":"ZRU9302968","vatRate":"0.00","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":14123},{"markingCodes":[],"id":4276,"priceType":{"code":"base"},"initialPrice":25855,"discountTotal":0,"vatRate":"0.00","createdAt":"2020-11-20 05:46:02","quantity":1,"status":"confirming","offer":{"displayName":"ZRU9303012 тумба под раковину UP 3 выдвижных ящика,сифон \/77,7х40,2х55,5\/(белый глянец)","id":36490,"externalId":"128182","xmlId":"ZRU9303012","name":"ZRU9303012 тумба под раковину UP 3 выдвижных ящика,сифон \/77,7х40,2х55,5\/(белый глянец)","article":"ZRU9303012","vatRate":"0.00","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":19636.95},{"markingCodes":[],"id":4277,"priceType":{"code":"base"},"initialPrice":10730,"discountTotal":0,"vatRate":"0.00","createdAt":"2020-11-20 05:46:02","quantity":1,"status":"confirming","offer":{"displayName":"Акриловая ванна","id":30306,"externalId":"126118","xmlId":"RB953202","name":"Акриловая ванна","article":"RB953202","vatRate":"0.00","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":8048},{"markingCodes":[],"id":4278,"priceType":{"code":"base"},"initialPrice":13615,"discountTotal":0,"vatRate":"0.00","createdAt":"2020-11-20 05:46:02","quantity":1,"status":"confirming","offer":{"displayName":"Акриловая ванна","id":30351,"externalId":"126073","xmlId":"RB819103R","name":"Акриловая ванна","article":"RB819103R","vatRate":"0.00","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":10211}],"payments":{"4990":{"id":4990,"status":"not-paid","type":"cash","externalId":"2309","amount":68359}},"fromApi":false,"weight":110000,"length":3550,"width":3027,"height":1000,"shipmentStore":"skad","shipped":false,"customFields":{"nasur":"ip-shumaev-sv"}}}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 3141
+            [order] => Array
+                (
+                    [slug] => 3141
+                    [id] => 3141
+                    [number] => 3141
+                    [externalId] => 4725
+                    [orderType] => eshop-individual
+                    [orderMethod] => phone
+                    [countryIso] => RU
+                    [createdAt] => 2020-11-20 05:37:55
+                    [statusUpdatedAt] => 2020-11-20 05:37:55
+                    [summ] => 68359
+                    [totalSumm] => 68359
+                    [prepaySum] => 0
+                    [purchaseSumm] => 52018.95
+                    [markDatetime] => 2020-11-20 05:37:55
+                    [firstName] => test
+                    [call] => 
+                    [expired] => 
+                    [managerId] => 6
+                    [customer] => Array
+                        (
+                            [type] => customer
+                            [id] => 1659
+                            [externalId] => 38553
+                            [isContact] => 
+                            [createdAt] => 2020-11-20 05:37:55
+                            [managerId] => 6
+                            [vip] => 
+                            [bad] => 
+                            [site] => city-tuning-ru
+                            [contragent] => Array
+                                (
+                                    [contragentType] => individual
+                                )
+
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [opt_cl] => 
+                                )
+
+                            [personalDiscount] => 0
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contact] => Array
+                        (
+                            [type] => customer
+                            [id] => 1659
+                            [externalId] => 38553
+                            [isContact] => 
+                            [createdAt] => 2020-11-20 05:37:55
+                            [managerId] => 6
+                            [vip] => 
+                            [bad] => 
+                            [site] => city-tuning-ru
+                            [contragent] => Array
+                                (
+                                    [contragentType] => individual
+                                )
+
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 0
+                            [totalSumm] => 0
+                            [averageSumm] => 0
+                            [ordersCount] => 0
+                            [customFields] => Array
+                                (
+                                    [opt_cl] => 
+                                )
+
+                            [personalDiscount] => 0
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => test
+                            [email] => 
+                            [phones] => Array
+                                (
+                                )
+
+                        )
+
+                    [contragent] => Array
+                        (
+                            [contragentType] => individual
+                        )
+
+                    [delivery] => Array
+                        (
+                            [code] => 22
+                            [integrationCode] => sdek
+                            [data] => Array
+                                (
+                                    [payerType] => sender
+                                    [packages] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [cost] => 0
+                            [netCost] => 0
+                            [address] => Array
+                                (
+                                    [countryIso] => RU
+                                )
+
+                        )
+
+                    [site] => city-tuning-ru
+                    [status] => new
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 4275
+                                    [priceType] => Array
+                                        (
+                                            [code] => base
+                                        )
+
+                                    [initialPrice] => 18159
+                                    [discountTotal] => 0
+                                    [vatRate] => 0.00
+                                    [createdAt] => 2020-11-20 05:46:02
+                                    [quantity] => 1
+                                    [status] => confirming
+                                    [offer] => Array
+                                        (
+                                            [displayName] => ZRU9302968 зеркальный шкаф RONDA подсветка,стекл,полоч/19х64,5х83/(белый глянец/серый матовый)
+                                            [id] => 36498
+                                            [externalId] => 128174
+                                            [xmlId] => ZRU9302968
+                                            [name] => ZRU9302968 зеркальный шкаф RONDA подсветка,стекл,полоч/19х64,5х83/(белый глянец/серый матовый)
+                                            [article] => ZRU9302968
+                                            [vatRate] => 0.00
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 14123
+                                )
+
+                            [1] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 4276
+                                    [priceType] => Array
+                                        (
+                                            [code] => base
+                                        )
+
+                                    [initialPrice] => 25855
+                                    [discountTotal] => 0
+                                    [vatRate] => 0.00
+                                    [createdAt] => 2020-11-20 05:46:02
+                                    [quantity] => 1
+                                    [status] => confirming
+                                    [offer] => Array
+                                        (
+                                            [displayName] => ZRU9303012 тумба под раковину UP 3 выдвижных ящика,сифон /77,7х40,2х55,5/(белый глянец)
+                                            [id] => 36490
+                                            [externalId] => 128182
+                                            [xmlId] => ZRU9303012
+                                            [name] => ZRU9303012 тумба под раковину UP 3 выдвижных ящика,сифон /77,7х40,2х55,5/(белый глянец)
+                                            [article] => ZRU9303012
+                                            [vatRate] => 0.00
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 19636.95
+                                )
+
+                            [2] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 4277
+                                    [priceType] => Array
+                                        (
+                                            [code] => base
+                                        )
+
+                                    [initialPrice] => 10730
+                                    [discountTotal] => 0
+                                    [vatRate] => 0.00
+                                    [createdAt] => 2020-11-20 05:46:02
+                                    [quantity] => 1
+                                    [status] => confirming
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Акриловая ванна
+                                            [id] => 30306
+                                            [externalId] => 126118
+                                            [xmlId] => RB953202
+                                            [name] => Акриловая ванна
+                                            [article] => RB953202
+                                            [vatRate] => 0.00
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 8048
+                                )
+
+                            [3] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 4278
+                                    [priceType] => Array
+                                        (
+                                            [code] => base
+                                        )
+
+                                    [initialPrice] => 13615
+                                    [discountTotal] => 0
+                                    [vatRate] => 0.00
+                                    [createdAt] => 2020-11-20 05:46:02
+                                    [quantity] => 1
+                                    [status] => confirming
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Акриловая ванна
+                                            [id] => 30351
+                                            [externalId] => 126073
+                                            [xmlId] => RB819103R
+                                            [name] => Акриловая ванна
+                                            [article] => RB819103R
+                                            [vatRate] => 0.00
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 10211
+                                )
+
+                        )
+
+                    [payments] => Array
+                        (
+                            [4990] => Array
+                                (
+                                    [id] => 4990
+                                    [status] => not-paid
+                                    [type] => cash
+                                    [externalId] => 2309
+                                    [amount] => 68359
+                                )
+
+                        )
+
+                    [fromApi] => 
+                    [weight] => 110000
+                    [length] => 3550
+                    [width] => 3027
+                    [height] => 1000
+                    [shipmentStore] => skad
+                    [shipped] => 
+                    [customFields] => Array
+                        (
+                            [nasur] => ip-shumaev-sv
+                        )
+
+                )
+
+        )
+
+)
+
